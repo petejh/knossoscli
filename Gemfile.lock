@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    knossos-cli (0.1.0)
+    knossoscli (0.1.0)
       knossos (~> 0.0)
 
 GEM
@@ -31,7 +31,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
-  knossos-cli!
+  knossoscli!
   rake (~> 10.0)
   rspec (~> 3.0)
 

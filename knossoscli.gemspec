@@ -1,23 +1,23 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'knossos-cli/version'
+require 'knossoscli/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'knossos-cli'
+  spec.name          = 'knossoscli'
   spec.version       = KnossosCLI::VERSION
   spec.authors       = ['Peter J. Hinckley']
   spec.email         = ['petejh.code@q.com']
 
   spec.summary       = 'Generate mazes from the command line.'
   spec.description   = 'A command line companion to the `knossos` Ruby gem.'
-  spec.homepage      = 'https://github.com/petejh/knossos-cli'
+  spec.homepage      = 'https://github.com/petejh/knossoscli'
   spec.license       = 'MIT'
 
   spec.metadata = {
     'homepage_uri' => spec.homepage,
-    'source_code_uri' => 'https://github.com/petejh/knossos-cli',
-    'changelog_uri' => 'https://github.com/petejh/knossos-cli/CHANGELOG.md',
-    'bug_tracker_uri' => 'https://github.com/petejh/knossos-cli/issues'
+    'source_code_uri' => 'https://github.com/petejh/knossoscli',
+    'changelog_uri' => 'https://github.com/petejh/knossoscli/CHANGELOG.md',
+    'bug_tracker_uri' => 'https://github.com/petejh/knossoscli/issues'
   }
 
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
