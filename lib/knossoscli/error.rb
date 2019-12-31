@@ -1,4 +1,2 @@
-module KnossosCLI
-  class Error < StandardError
-  end
+class KnossosCLI::Error < StandardError
 end

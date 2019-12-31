@@ -10,7 +10,7 @@ Install globally with:
 ## Usage
 Generate a maze in your terminal:
 ```bash
-~$ knossoscli
+~$ knossos
 ```
 
 ## Contributing
@@ -28,7 +28,11 @@ and run the tests:
 ```
 
 ### Running the Code
-You can experiment with the code interactively using:
+Run the command itself with:
+```bash
+~/knossoscli$ bundle exec exe/knossos
+```
+Or, you can experiment directly with the code interactively using:
 ```bash
 ~/knossoscli$ bin/console
 ```

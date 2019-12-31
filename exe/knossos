@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'knossos/cli'
+require 'knossoscli'
+
+KnossosCLI::CLI.start(ARGV)
