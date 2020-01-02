@@ -8,9 +8,20 @@ Install globally with:
 ```
 
 ## Usage
+The Knossos CLI actually comprises a suite of commands similar to familiar tools
+like `git` and `bundler`. You can see a summary of the available sub-commands by
+invoking:
+```bash
+~$ knossos help
+```
+More detailed documentation for each sub-command is available with, for example:
+```bash
+~$ knossos help carve
+```
+
 Generate a maze in your terminal:
 ```bash
-~$ knossos
+~$ knossos carve
 ```
 
 ## Contributing

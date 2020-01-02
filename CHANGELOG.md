@@ -7,6 +7,7 @@ This project uses [Semantic Versioning][semv].
 - Create the project as a Ruby gem.
 - Remove '-' from the project name and shorten the name of the executable.
 - Add the Thor toolkit to build the command line interface.
+- Add the `carve` sub-command
 
 ## [0.0.0][0.0.0] — yyyy-mm-dd
 ### Added
