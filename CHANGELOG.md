@@ -9,6 +9,7 @@ This project uses [Semantic Versioning][semv].
 - Add the Thor toolkit to build the command line interface.
 - Add the `carve` sub-command
 - Specify grid dimensions as arguments to the `carve` command
+- Accept the maze-carving algorithm as an argument
 
 ## [0.0.0][0.0.0] — yyyy-mm-dd
 ### Added

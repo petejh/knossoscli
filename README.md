@@ -21,7 +21,7 @@ More detailed documentation for each sub-command is available with, for example:
 
 Generate a maze in your terminal:
 ```bash
-~$ knossos carve --rows=5 --columns=7
+~$ knossos carve --rows=5 --columns=7 --algorithm=RecursiveBacktracker
 ```
 
 ## Contributing
