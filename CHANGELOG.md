@@ -10,6 +10,7 @@ This project uses [Semantic Versioning][semv].
 - Add the `carve` sub-command
 - Specify grid dimensions as arguments to the `carve` command
 - Accept the maze-carving algorithm as an argument
+- Add the Sidewinder algorithm
 
 ## [0.0.0][0.0.0] — yyyy-mm-dd
 ### Added

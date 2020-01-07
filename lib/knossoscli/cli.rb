@@ -12,7 +12,13 @@ class KnossosCLI::CLI < Thor
   method_option :algorithm,
     :type => :string,
     :aliases => '-a',
-    :enum => ['AldousBroder', 'BinaryTree', 'RecursiveBacktracker', 'Wilsons'],
+    :enum => [
+      'AldousBroder',
+      'BinaryTree',
+      'RecursiveBacktracker',
+      'Sidewinder',
+      'Wilsons'
+    ],
     :default => 'BinaryTree'
   def carve
     params = {}
