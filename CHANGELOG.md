@@ -12,6 +12,8 @@ This project uses [Semantic Versioning][semv].
 - Accept the maze-carving algorithm as an argument
 - Add the Sidewinder algorithm
 - Drop implicit, deprecated `Grid.to_s` and use `Renderer::Text.render` instead
+- Automagically infer the list of available algorithms. At least until the
+library provides a cleaner way.
 
 ## [0.0.0][0.0.0] — yyyy-mm-dd
 ### Added
