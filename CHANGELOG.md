@@ -11,6 +11,7 @@ This project uses [Semantic Versioning][semv].
 - Specify grid dimensions as arguments to the `carve` command
 - Accept the maze-carving algorithm as an argument
 - Add the Sidewinder algorithm
+- Drop implicit, deprecated `Grid.to_s` and use `Renderer::Text.render` instead
 
 ## [0.0.0][0.0.0] — yyyy-mm-dd
 ### Added

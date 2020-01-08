@@ -25,8 +25,12 @@ class KnossosCLI::CLI < Thor
     params[:rows] = options[:rows].to_i if options[:rows]
     params[:columns] = options[:columns].to_i if options[:columns]
 
-    carver = Algorithm.const_get(options[:algorithm])
+    grid = Knossos::Grid.new(params)
 
-    puts carver.carve(grid: Knossos::Grid.new(params))
+    carver = Algorithm.const_get(options[:algorithm])
+    carver.carve(grid: grid)
+
+    renderer = Renderer::Text.new
+    puts renderer.render(grid: grid)
   end
 end
