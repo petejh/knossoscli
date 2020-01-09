@@ -14,6 +14,7 @@ This project uses [Semantic Versioning][semv].
 - Drop implicit, deprecated `Grid.to_s` and use `Renderer::Text.render` instead
 - Automagically infer the list of available algorithms. At least until the
 library provides a cleaner way.
+- Provide an option to save a PNG image of the generated maze.
 
 ## [0.0.0][0.0.0] — yyyy-mm-dd
 ### Added

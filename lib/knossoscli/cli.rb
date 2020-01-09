@@ -14,6 +14,9 @@ class KnossosCLI::CLI < Thor
     :aliases => '-a',
     :enum => Algorithm.constants.map(&:to_s).sort,
     :default => 'BinaryTree'
+  method_option :image,
+    :type => :string,
+    :default => 'maze.png'
   def carve
     params = {}
     params[:rows] = options[:rows].to_i if options[:rows]
@@ -24,7 +27,13 @@ class KnossosCLI::CLI < Thor
     carver = Algorithm.const_get(options[:algorithm])
     carver.carve(grid: grid)
 
-    renderer = Renderer::Text.new
-    puts renderer.render(grid: grid)
+    text_renderer = Renderer::Text.new
+    puts text_renderer.render(grid: grid)
+
+    if options[:image]
+      image_renderer = Renderer::Image.new(grid)
+      image = image_renderer.render
+      image.save(options[:image])
+    end
   end
 end
