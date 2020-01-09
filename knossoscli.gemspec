@@ -24,11 +24,11 @@ Gem::Specification.new do |spec|
     `git ls-files -z LICENSE.txt README.md CHANGELOG.md lib`.split("\x0")
   end
   spec.bindir        = 'exe'
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.executables   = ['knossos']
   spec.require_paths = ['lib']
 
   spec.required_ruby_version = '~> 2.6'
-  spec.add_runtime_dependency 'knossos', '~> 0.0'
+  spec.add_runtime_dependency 'knossos', '~> 0.1.0'
   spec.add_runtime_dependency 'thor', '~> 1.0'
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake', '~> 10.0'

@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     knossoscli (0.1.0)
-      knossos (~> 0.0)
+      knossos (~> 0.1.0)
       thor (~> 1.0)
 
 GEM
