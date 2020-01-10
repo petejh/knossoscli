@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'bundler/setup'
-require 'knossos/cli'
+require 'knossoscli'
 
 # require 'pry'
 # Pry.start
